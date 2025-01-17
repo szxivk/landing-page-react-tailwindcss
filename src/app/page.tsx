@@ -1,10 +1,10 @@
-import { Header } from "@/components/Header/Header";
+import { TopSection } from "@/components/TopSection/TopSection";
 
 export default function Home() {
   return (
-    <main className="flex-col justify-center h-[200vh]">
+    <main className="h-[800vh]">
       {/* link components here */}
-      <Header />
+      <TopSection />
     </main>
   );
 }
