@@ -1,9 +1,9 @@
 import React from "react";
 
-export const TopSection = () => {
+export const Header = () => {
   return (
-    <div className="flex justify-center items-start mb-6">
-      <div className="flex p-4 w-3/5 rounded-full border border-stone-100 justify-between">
+    <div className="flex justify-center items-start mb-6 ">
+      <div className="flex fixed p-4 w-3/5 rounded-full border border-stone-100 justify-between">
         {/* logo */}
         <div className="flex gap-1.5 items-center">
           <img
@@ -22,7 +22,11 @@ export const TopSection = () => {
             <span>Pricing</span>
           </div>
 
-          <button className="flex font-semibold shrink-0 text-sm px-5 py-2.5 border rounded-full border-stone-400">
+          <button
+            className="flex items-center justify-center shrink-0 px-6 py-2.5
+          border-b-2 border-orange-700 shadow-lg shadow-orange-600/60 
+           text-sm rounded-full bg-orange-500 hover:bg-orange-600"
+          >
             Log in
           </button>
         </div>
