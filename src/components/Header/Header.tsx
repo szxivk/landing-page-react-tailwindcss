@@ -9,20 +9,20 @@ export const TopSection = () => {
           <img
             src="https://api.dicebear.com/9.x/identicon/svg?seed=Maria"
             alt="logo"
-            className="size-5 rounded shrink-0"
+            className="size-6 rounded shrink-0 ml-3"
           />
-          <span className="text-sm font-extrabold">Website</span>
+          <span className="text-lg font-bold ml-1/2">Website</span>
         </div>
         <div className="flex gap-10">
           {/* links + button*/}
-          <div className="text-xs flex gap-6 items-center">
+          <div className="text-sm flex gap-6 items-center">
             <span>Home</span>
             <span>Features</span>
             <span>Update</span>
             <span>Pricing</span>
           </div>
 
-          <button className="text-xs px-3 py-1.5 border rounded-full border-stone-400">
+          <button className="flex font-semibold shrink-0 text-sm px-5 py-2.5 border rounded-full border-stone-400">
             Log in
           </button>
         </div>
