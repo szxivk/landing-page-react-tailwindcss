@@ -25,7 +25,7 @@ export const Header = () => {
           <button
             className="flex items-center justify-center shrink-0 px-6 py-2.5
           border-b-2 border-orange-700 shadow-lg shadow-orange-600/60 
-           text-sm rounded-full bg-orange-500 hover:bg-orange-600"
+           text-sm rounded-full bg-orange-500 hover:bg-orange-600 text-[#f2f7fa]"
           >
             Log in
           </button>
