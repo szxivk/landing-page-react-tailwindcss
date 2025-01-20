@@ -2,8 +2,8 @@ import React from "react";
 
 export const Header = () => {
   return (
-    <div className="flex justify-center h-auto mb-16">
-      <div className="flex p-4 w-3/5 rounded-full border border-stone-100 justify-between">
+    <div className="flex justify-center h-auto mb-12 mt-2">
+      <div className="flex p-4 w-3/5 border-b border-[#2b4149]/10 justify-between">
         {/* logo */}
         <div className="flex gap-1.5 items-center">
           <img
