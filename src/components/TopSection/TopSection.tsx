@@ -4,7 +4,7 @@ import { Hero } from "./Hero";
 
 export const TopSection = () => {
   return (
-    <div className="flex-col h-screen">
+    <div className="flex-col">
       <Header />
       <Hero />
     </div>
