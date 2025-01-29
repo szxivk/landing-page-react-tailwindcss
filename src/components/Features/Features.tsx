@@ -5,6 +5,10 @@ import { FaSlack } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 import { HiOutlineCalendarDateRange } from "react-icons/hi2";
 import { IoIosNotificationsOutline } from "react-icons/io";
+import {
+  MdOutlineChevronRight,
+  MdOutlineKeyboardDoubleArrowRight,
+} from "react-icons/md";
 import { twMerge } from "tailwind-merge";
 
 export const Features = () => {
@@ -78,7 +82,17 @@ const CalendarBlock = () => {
 };
 
 const Productivity = () => {
-  return <Block className="md:col-span-2 md:row-span-10"></Block>;
+  return (
+    <Block className="relative bg-gradient-to-tl from-orange-200 from-20% to-orange-500 p-8 text-[#2b4149] md:col-span-2 md:row-span-10">
+      <div className="flex items-center justify-start">
+        <h3 className="text-6xl font-bold leading-none">3X </h3>
+        <MdOutlineKeyboardDoubleArrowRight className="size-20 opacity-70" />
+      </div>
+      <div className="absolute bottom-8 left-8 right-8 mt-10 text-sm leading-snug">
+        Triple your team's productivity with our cutting-edge solutions
+      </div>
+    </Block>
+  );
 };
 
 const MoreFeatures = () => {
