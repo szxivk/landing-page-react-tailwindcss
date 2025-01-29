@@ -1,11 +1,16 @@
 "use client";
 import { motion, MotionProps } from "framer-motion";
+import { CiCircleMore } from "react-icons/ci";
+import { FaSlack } from "react-icons/fa";
+import { FcGoogle } from "react-icons/fc";
+import { HiOutlineCalendarDateRange } from "react-icons/hi2";
+import { IoIosNotificationsOutline } from "react-icons/io";
 import { twMerge } from "tailwind-merge";
 
 export const Features = () => {
   return (
     <div className="mx-52 mt-14 grid h-auto grid-flow-dense grid-cols-9 gap-2 p-4">
-      <HeaderBlock />
+      <CalendarBlock />
       <Productivity />
       <MoreFeatures />
       <Shortcuts />
@@ -21,7 +26,7 @@ const Block = ({ className, ...rest }: Props) => {
   return (
     <motion.div
       className={twMerge(
-        "col-span-4 rounded-xl border border-orange-200 bg-orange-400 p-6 text-[#f2f7fa]",
+        "col-span-4 rounded-3xl border border-stone-400 bg-white text-[#f2f7fa]",
         className,
       )}
       {...rest}
@@ -29,8 +34,47 @@ const Block = ({ className, ...rest }: Props) => {
   );
 };
 
-const HeaderBlock = () => {
-  return <Block className="md:col-span-3 md:row-span-10"></Block>;
+const CalendarBlock = () => {
+  return (
+    <Block className="text-stone-700 md:col-span-3 md:row-span-10">
+      <div className="flex items-center justify-between rounded-t-3xl bg-gray-200 px-8 pb-5 pt-5">
+        <h3 className="flex items-center gap-1.5 font-medium text-stone-600">
+          Calendar
+        </h3>
+        <HiOutlineCalendarDateRange className="size-5" />
+      </div>
+      <div className="flex items-center gap-2 px-8 pb-6 pt-8 text-stone-500">
+        <FcGoogle className="size-6" />
+        Hangouts
+      </div>
+      <div className="mx-8 mb-2 border-b border-stone-400 pb-4 text-start">
+        <span className="mb-1 block text-2xl font-semibold">
+          Wednesday, 29 Jan
+        </span>
+        <span className="block text-sm text-stone-500">10:00 - 11:13 AM</span>
+      </div>
+      <div className="mx-8 mb-12 flex items-center gap-2">
+        Created from:
+        <div className="flex items-center gap-1 font-bold">
+          <FaSlack /> Slack
+        </div>
+      </div>
+      <div className="mx-8 mb-8 flex items-center justify-between">
+        <button className="rounded-lg bg-orange-500 px-6 py-3 text-[#f2f7fa]">
+          Confirm meet
+        </button>
+        {/* two icons button*/}
+        <div className="flex items-center gap-1">
+          <button>
+            <IoIosNotificationsOutline className="size-6" />
+          </button>
+          <button>
+            <CiCircleMore className="size-6" />
+          </button>
+        </div>
+      </div>
+    </Block>
+  );
 };
 
 const Productivity = () => {
