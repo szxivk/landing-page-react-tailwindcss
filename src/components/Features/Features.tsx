@@ -1,9 +1,12 @@
 "use client";
 import { motion, MotionProps } from "framer-motion";
+import { BsFillPlayFill } from "react-icons/bs";
 import { CiCircleMore } from "react-icons/ci";
 import { FaSlack } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
+import { FiCommand, FiPlus } from "react-icons/fi";
 import { HiOutlineCalendarDateRange } from "react-icons/hi2";
+import { ImCtrl } from "react-icons/im";
 import { IoIosNotificationsOutline } from "react-icons/io";
 import {
   MdOutlineChevronRight,
@@ -30,7 +33,7 @@ const Block = ({ className, ...rest }: Props) => {
   return (
     <motion.div
       className={twMerge(
-        "col-span-4 rounded-3xl border border-stone-400 bg-white text-[#f2f7fa]",
+        "col-span-4 rounded-3xl border border-gray-200 bg-white text-[#f2f7fa]",
         className,
       )}
       {...rest}
@@ -41,7 +44,7 @@ const Block = ({ className, ...rest }: Props) => {
 const CalendarBlock = () => {
   return (
     <Block className="text-stone-700 md:col-span-3 md:row-span-10">
-      <div className="flex items-center justify-between rounded-t-3xl bg-gray-200 px-8 pb-5 pt-5">
+      <div className="flex items-center justify-between rounded-t-3xl border-b border-gray-200 bg-gray-100 px-8 pb-5 pt-5">
         <h3 className="flex items-center gap-1.5 font-medium text-stone-600">
           Calendar
         </h3>
@@ -100,5 +103,28 @@ const MoreFeatures = () => {
 };
 
 const Shortcuts = () => {
-  return <Block className="md:col-span-5 md:row-span-2"></Block>;
+  return (
+    <Block className="p-8 md:col-span-5 md:row-span-2">
+      <div className="flex items-center">
+        <div className="mr-auto">
+          <h3 className="text-xl font-semibold text-[#2b4149]">Shortcuts</h3>
+          <span className="text-sm text-stone-500">
+            Simplify access to main features
+          </span>
+        </div>
+        <div className="flex items-center text-[#2b4149]">
+          <div className="flex gap-3 rounded-2xl border border-gray-200 bg-gray-100 p-4">
+            <FiCommand className="size-6" />
+            <ImCtrl className="size-6" />
+          </div>
+          <div className="p-4">
+            <FiPlus className="size-6" />
+          </div>
+          <div className="rounded-2xl border border-gray-200 bg-gray-100 p-4">
+            <BsFillPlayFill className="size-6" />
+          </div>
+        </div>
+      </div>
+    </Block>
+  );
 };
