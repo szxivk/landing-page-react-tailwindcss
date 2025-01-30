@@ -8,10 +8,8 @@ import { FiCommand, FiPlus } from "react-icons/fi";
 import { HiOutlineCalendarDateRange } from "react-icons/hi2";
 import { ImCtrl } from "react-icons/im";
 import { IoIosNotificationsOutline } from "react-icons/io";
-import {
-  MdOutlineChevronRight,
-  MdOutlineKeyboardDoubleArrowRight,
-} from "react-icons/md";
+import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
+import { SiNotion } from "react-icons/si";
 import { twMerge } from "tailwind-merge";
 
 export const Features = () => {
@@ -43,7 +41,7 @@ const Block = ({ className, ...rest }: Props) => {
 
 const CalendarBlock = () => {
   return (
-    <Block className="text-stone-700 md:col-span-3 md:row-span-10">
+    <Block className="text-[#2b4149] md:col-span-3 md:row-span-10">
       <div className="flex items-center justify-between rounded-t-3xl border-b border-gray-200 bg-gray-100 px-8 pb-5 pt-5">
         <h3 className="flex items-center gap-1.5 font-medium text-stone-600">
           Calendar
@@ -86,7 +84,7 @@ const CalendarBlock = () => {
 
 const Productivity = () => {
   return (
-    <Block className="relative bg-gradient-to-tl from-orange-200 from-20% to-orange-500 p-8 text-[#2b4149] md:col-span-2 md:row-span-10">
+    <Block className="relative bg-gradient-to-bl from-red-600 via-orange-400 via-60% to-orange-600 p-8 text-[#2b4149] md:col-span-2 md:row-span-10">
       <div className="flex items-center justify-start">
         <h3 className="text-6xl font-bold leading-none">3X </h3>
         <MdOutlineKeyboardDoubleArrowRight className="size-20 opacity-70" />
@@ -99,7 +97,19 @@ const Productivity = () => {
 };
 
 const MoreFeatures = () => {
-  return <Block className="md:col-span-4 md:row-span-12"></Block>;
+  return (
+    <Block className="relative md:col-span-4 md:row-span-12">
+      <div className="absolute bottom-28 left-24 right-24 top-28 rounded-3xl border border-gray-200 bg-white text-[#2b4149] shadow-2xl">
+        <div className="flex items-center justify-start gap-1 rounded-t-3xl border-b border-gray-200 bg-gray-100 px-6 py-2 font-semibold">
+          <span className="font-sm flex items-center gap-1.5">Notion</span>
+        </div>
+        <div className="flex items-center gap-2 px-8 pb-6 pt-8 text-stone-500">
+          <SiNotion />
+          Hangouts
+        </div>
+      </div>
+    </Block>
+  );
 };
 
 const Shortcuts = () => {
