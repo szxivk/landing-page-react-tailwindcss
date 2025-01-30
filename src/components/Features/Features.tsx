@@ -52,7 +52,7 @@ const CalendarBlock = () => {
         <FcGoogle className="size-6" />
         Hangouts
       </div>
-      <div className="mx-8 mb-2 border-b border-stone-400 pb-4 text-start">
+      <div className="mx-8 mb-2 border-b border-stone-200 pb-4 text-start">
         <span className="mb-1 block text-2xl font-semibold">
           Wednesday, 29 Jan
         </span>
@@ -101,11 +101,20 @@ const MoreFeatures = () => {
     <Block className="relative md:col-span-4 md:row-span-12">
       <div className="absolute bottom-28 left-24 right-24 top-28 rounded-3xl border border-gray-200 bg-white text-[#2b4149] shadow-2xl">
         <div className="flex items-center justify-start gap-1 rounded-t-3xl border-b border-gray-200 bg-gray-100 px-6 py-2 font-semibold">
-          <span className="font-sm flex items-center gap-1.5">Notion</span>
-        </div>
-        <div className="flex items-center gap-2 px-8 pb-6 pt-8 text-stone-500">
           <SiNotion />
-          Hangouts
+          <span className="font-sm flex items-center gap-1.5 opacity-90">
+            Notion
+          </span>
+        </div>
+        <div className="px-6 pt-6">
+          <h3 className="mb-2 text-xs text-stone-500">Task Created:</h3>
+          <div className="border-b border-stone-200 pb-4 font-semibold leading-snug">
+            Send the email invoice to Martin S.
+          </div>
+        </div>
+        <div className="absolute bottom-6 left-6">
+          <span className="block font-semibold">Monday, 3 Feb</span>
+          <span className="block text-sm text-stone-500">11:13 AM</span>
         </div>
       </div>
     </Block>
