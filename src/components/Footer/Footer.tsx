@@ -9,7 +9,7 @@ import {
 
 export const Footer = () => {
   return (
-    <div className="mt-24 w-full bg-white py-24 pl-52">
+    <div className="mt-24 w-full rounded-t bg-white pb-36 pl-52 pt-24">
       <div className="flex items-start justify-between">
         <div className="">
           <div className="flex items-center gap-2">
