@@ -33,16 +33,16 @@ export const Footer = () => {
             <span>(+91) 3333-777-444</span>
           </div>
           <div className="mt-6 flex gap-2">
-            <button className="rounded-full border border-[#2b4149] p-2">
+            <button className="rounded-full border border-[#2b4149] p-2 hover:bg-[#7CE100]">
               <FaXTwitter />
             </button>
-            <button className="rounded-full border border-[#2b4149] p-2">
+            <button className="rounded-full border border-[#2b4149] p-2 hover:bg-[#7CE100]">
               <FaLinkedin />
             </button>
-            <button className="rounded-full border border-[#2b4149] p-2">
+            <button className="rounded-full border border-[#2b4149] p-2 hover:bg-[#7CE100]">
               <FaInstagram />
             </button>
-            <button className="rounded-full border border-[#2b4149] p-2">
+            <button className="rounded-full border border-[#2b4149] p-2 hover:bg-[#7CE100]">
               <FaFacebook />
             </button>
           </div>
@@ -54,7 +54,7 @@ export const Footer = () => {
             <li className="mb-3">
               <a
                 href="#"
-                className="relative before:absolute before:bottom-0 before:left-0 before:h-[1px] before:w-full before:origin-right before:scale-x-0 before:transform before:rounded-md before:bg-orange-500 before:transition-transform before:duration-300 before:ease-in-out hover:before:origin-left hover:before:scale-x-100"
+                className="relative before:absolute before:bottom-0 before:left-0 before:h-[1.5px] before:w-full before:origin-right before:scale-x-0 before:transform before:rounded-md before:bg-[#7CE100] before:transition-transform before:duration-300 before:ease-in-out hover:before:origin-left hover:before:scale-x-100"
               >
                 Admissions
               </a>
@@ -63,7 +63,7 @@ export const Footer = () => {
               <a
                 href="#
               "
-                className="relative before:absolute before:bottom-0 before:left-0 before:h-[1px] before:w-full before:origin-right before:scale-x-0 before:transform before:rounded-md before:bg-orange-500 before:transition-transform before:duration-300 before:ease-in-out hover:before:origin-left hover:before:scale-x-100"
+                className="relative before:absolute before:bottom-0 before:left-0 before:h-[1.5px] before:w-full before:origin-right before:scale-x-0 before:transform before:rounded-md before:bg-[#7CE100] before:transition-transform before:duration-300 before:ease-in-out hover:before:origin-left hover:before:scale-x-100"
               >
                 Charting
               </a>
@@ -71,7 +71,7 @@ export const Footer = () => {
             <li className="mb-3">
               <a
                 href="#"
-                className="relative before:absolute before:bottom-0 before:left-0 before:h-[1px] before:w-full before:origin-right before:scale-x-0 before:transform before:rounded-md before:bg-orange-500 before:transition-transform before:duration-300 before:ease-in-out hover:before:origin-left hover:before:scale-x-100"
+                className="relative before:absolute before:bottom-0 before:left-0 before:h-[1.5px] before:w-full before:origin-right before:scale-x-0 before:transform before:rounded-md before:bg-[#7CE100] before:transition-transform before:duration-300 before:ease-in-out hover:before:origin-left hover:before:scale-x-100"
               >
                 Billing
               </a>
@@ -79,7 +79,7 @@ export const Footer = () => {
             <li className="mb-3">
               <a
                 href="#"
-                className="relative before:absolute before:bottom-0 before:left-0 before:h-[1px] before:w-full before:origin-right before:scale-x-0 before:transform before:rounded-md before:bg-orange-500 before:transition-transform before:duration-300 before:ease-in-out hover:before:origin-left hover:before:scale-x-100"
+                className="relative before:absolute before:bottom-0 before:left-0 before:h-[1.5px] before:w-full before:origin-right before:scale-x-0 before:transform before:rounded-md before:bg-[#7CE100] before:transition-transform before:duration-300 before:ease-in-out hover:before:origin-left hover:before:scale-x-100"
               >
                 Scheduling
               </a>
@@ -90,7 +90,7 @@ export const Footer = () => {
             <li className="mb-3">
               <a
                 href="#"
-                className="relative before:absolute before:bottom-0 before:left-0 before:h-[1px] before:w-full before:origin-right before:scale-x-0 before:transform before:rounded-md before:bg-orange-500 before:transition-transform before:duration-300 before:ease-in-out hover:before:origin-left hover:before:scale-x-100"
+                className="relative before:absolute before:bottom-0 before:left-0 before:h-[1.5px] before:w-full before:origin-right before:scale-x-0 before:transform before:rounded-md before:bg-[#7CE100] before:transition-transform before:duration-300 before:ease-in-out hover:before:origin-left hover:before:scale-x-100"
               >
                 Features
               </a>
@@ -98,7 +98,7 @@ export const Footer = () => {
             <li className="mb-3">
               <a
                 href="#"
-                className="relative before:absolute before:bottom-0 before:left-0 before:h-[1px] before:w-full before:origin-right before:scale-x-0 before:transform before:rounded-md before:bg-orange-500 before:transition-transform before:duration-300 before:ease-in-out hover:before:origin-left hover:before:scale-x-100"
+                className="relative before:absolute before:bottom-0 before:left-0 before:h-[1.5px] before:w-full before:origin-right before:scale-x-0 before:transform before:rounded-md before:bg-[#7CE100] before:transition-transform before:duration-300 before:ease-in-out hover:before:origin-left hover:before:scale-x-100"
               >
                 Why Website?
               </a>
@@ -106,7 +106,7 @@ export const Footer = () => {
             <li className="mb-3">
               <a
                 href="#"
-                className="relative before:absolute before:bottom-0 before:left-0 before:h-[1px] before:w-full before:origin-right before:scale-x-0 before:transform before:rounded-md before:bg-orange-500 before:transition-transform before:duration-300 before:ease-in-out hover:before:origin-left hover:before:scale-x-100"
+                className="relative before:absolute before:bottom-0 before:left-0 before:h-[1.5px] before:w-full before:origin-right before:scale-x-0 before:transform before:rounded-md before:bg-[#7CE100] before:transition-transform before:duration-300 before:ease-in-out hover:before:origin-left hover:before:scale-x-100"
               >
                 Blog
               </a>
@@ -114,7 +114,7 @@ export const Footer = () => {
             <li className="mb-3">
               <a
                 href="#"
-                className="relative before:absolute before:bottom-0 before:left-0 before:h-[1px] before:w-full before:origin-right before:scale-x-0 before:transform before:rounded-md before:bg-orange-500 before:transition-transform before:duration-300 before:ease-in-out hover:before:origin-left hover:before:scale-x-100"
+                className="relative before:absolute before:bottom-0 before:left-0 before:h-[1.5px] before:w-full before:origin-right before:scale-x-0 before:transform before:rounded-md before:bg-[#7CE100] before:transition-transform before:duration-300 before:ease-in-out hover:before:origin-left hover:before:scale-x-100"
               >
                 Testimonials
               </a>
@@ -125,7 +125,7 @@ export const Footer = () => {
             <li className="mb-3">
               <a
                 href="#"
-                className="relative before:absolute before:bottom-0 before:left-0 before:h-[1px] before:w-full before:origin-right before:scale-x-0 before:transform before:rounded-md before:bg-orange-500 before:transition-transform before:duration-300 before:ease-in-out hover:before:origin-left hover:before:scale-x-100"
+                className="relative before:absolute before:bottom-0 before:left-0 before:h-[1.5px] before:w-full before:origin-right before:scale-x-0 before:transform before:rounded-md before:bg-[#7CE100] before:transition-transform before:duration-300 before:ease-in-out hover:before:origin-left hover:before:scale-x-100"
               >
                 Contact Us
               </a>
@@ -133,7 +133,7 @@ export const Footer = () => {
             <li className="mb-3">
               <a
                 href="#"
-                className="relative before:absolute before:bottom-0 before:left-0 before:h-[1px] before:w-full before:origin-right before:scale-x-0 before:transform before:rounded-md before:bg-orange-500 before:transition-transform before:duration-300 before:ease-in-out hover:before:origin-left hover:before:scale-x-100"
+                className="relative before:absolute before:bottom-0 before:left-0 before:h-[1.5px] before:w-full before:origin-right before:scale-x-0 before:transform before:rounded-md before:bg-[#7CE100] before:transition-transform before:duration-300 before:ease-in-out hover:before:origin-left hover:before:scale-x-100"
               >
                 Privacy Policy
               </a>
@@ -141,7 +141,7 @@ export const Footer = () => {
             <li className="mb-3">
               <a
                 href="#"
-                className="relative before:absolute before:bottom-0 before:left-0 before:h-[1px] before:w-full before:origin-right before:scale-x-0 before:transform before:rounded-md before:bg-orange-500 before:transition-transform before:duration-300 before:ease-in-out hover:before:origin-left hover:before:scale-x-100"
+                className="relative before:absolute before:bottom-0 before:left-0 before:h-[1.5px] before:w-full before:origin-right before:scale-x-0 before:transform before:rounded-md before:bg-[#7CE100] before:transition-transform before:duration-300 before:ease-in-out hover:before:origin-left hover:before:scale-x-100"
               >
                 Terms of Service
               </a>
