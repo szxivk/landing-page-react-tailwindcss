@@ -70,7 +70,7 @@ const CalendarBlock = () => {
         </div>
       </div>
       <div className="mx-8 mb-8 flex items-center justify-between">
-        <button className="rounded-lg bg-orange-500 px-6 py-3 text-[#f2f7fa]">
+        <button className="shrink-0 rounded-lg border-b-2 border-orange-700 bg-orange-500 px-6 py-3 text-[#f2f7fa] shadow-lg shadow-orange-600/60 hover:bg-orange-600">
           Confirm meet
         </button>
         {/* two icons button*/}
@@ -93,7 +93,7 @@ const Productivity = () => {
       whileHover={{
         scale: 1.1,
       }}
-      className="relative bg-gradient-to-bl from-red-600 via-orange-400 via-60% to-orange-600 p-8 text-[#2b4149] md:col-span-2 md:row-span-10"
+      className="relative border-pink-100/80 bg-gradient-to-tr from-indigo-100 via-pink-200 to-green-200 p-8 text-[#1E212B] md:col-span-2 md:row-span-10"
     >
       <div className="flex items-center justify-start">
         <h3 className="text-6xl font-bold leading-none">3X </h3>
